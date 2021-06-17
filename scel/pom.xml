@@ -79,6 +79,12 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.0</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.rest-assured/spring-mock-mvc -->
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>spring-mock-mvc</artifactId>
+			<scope>test</scope>
+		</dependency>
 
 	</dependencies>
 

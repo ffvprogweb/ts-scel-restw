@@ -45,7 +45,7 @@ public class LivroServicoI implements LivroServico{
 	@Override
 	public ResponseEntity<Livro> consultaPorIsbn(String isbn) {
 		ResponseEntity<Livro> response;
-		logger.info(">>>>>> 2. servico consulta por id chamado");
+		logger.info(">>>>>> 2. servico consulta por isbn chamado");
 		Livro livro = repository.findByIsbn(isbn);
 		if (livro !=null)
 			response = ResponseEntity.ok().body(livro);

@@ -27,7 +27,7 @@ public class ScelApplication {
 		Livro livro = new Livro("1112", "Engenharia de Software", "Pressman");
 		repository.save(livro);
 		Livro umLivro = repository.findByIsbn("1112");
-		logger.info(">>>>>> inicializacao da aplicacao =>  " + umLivro.toString());
+		logger.info(">>>>>> inclui 1 registro na inicializacao =>  " + umLivro.toString());
 		
 	}
 }
